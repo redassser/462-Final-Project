@@ -40,7 +40,9 @@ This thresholded image could then be used as a mask to isolate and extract the p
 
 To compile and run the program from the provided files, Visual Studio 2022 with the C++ desktop development module is required. Open the .sln file with Visual Studio. Once open, make sure the Solution Configurations option is set to Release, and then press Ctrl + Shift + B to build the solution. The executable can be found under the /x64/Release/ folder and can be run directly to scan a document using the default settings found to work best. The example jpg image used in this report has been provided, called input.jpg. Type in input.jpg when prompted, then press enter to execute the process with the result being sent to out.jpg in the same folder. Custom settings for the process, specifically the brightness increase, blur radius, and threshold, can be used when executing from the command line in the format of
 
-./HomeworkScannerBuildable input.jpg output.jpg 80 7 140 ![](Aspose.Words.dcba896b-6b2a-4a09-a402-1d3f1645aeb2.011.png)80 being the default brightness increase
+./HomeworkScannerBuildable input.jpg output.jpg 80 7 140 
+
+80 being the default brightness increase
 
 7 being the default blur radius
 
